@@ -42,3 +42,23 @@ function random(num: number) {
 }
 
 // Part-5
+const colors = ["red", "orange", "yellow"];
+colors.map((color) => {
+  return color.toUpperCase();
+});
+
+// Part-6
+function printTwice(msg: string): void {
+  console.log(msg);
+  console.log(msg);
+}
+// Part-7
+function makeError(msg: string): never {
+  throw new Error(msg);
+}
+
+function gameLoop(): never {
+  while (true) {
+    console.log("Game Loop Running!");
+  }
+}
