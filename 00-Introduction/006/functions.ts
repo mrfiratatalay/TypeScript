@@ -16,3 +16,8 @@ const doSomething = (person: string, age: number, isFunny: boolean) => {
 };
 
 doSomething("Firat", 13, true);
+
+// Part-3
+function message(person: string = "FIRAT") {
+  return `Hi there, ${person}`;
+}
